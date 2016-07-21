@@ -98,14 +98,14 @@ textarea {
 /* Fonts */
 @font-face {
     font-family: "Book";
-    src: url("fonts/ITC Avant Garde Gothic CE Book.otf") format("opentype");
+    src: url("fonts/book/ITC Avant Garde Gothic CE Book.otf") format("opentype");
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Oblique";
-    src: url("fonts/ITC Avant Garde Gothic Extra Light Oblique.otf") format("opentype");
+    src: url("fonts/oblique/ITC Avant Garde Gothic Extra Light Oblique.otf") format("opentype");
     font-weight: normal;
     font-style: italic;
 }
@@ -122,9 +122,7 @@ body {
     height: 100%;
     width: 100%;
     background-color: #ffffff;
-    font-family: 'ITC Avant Garde Gothic Extra Light Oblique', sans-serif;
-    font-weight: bold;
-    font-style: normal;
+    font-family: 'Oblique', sans-serif;
     font-size: 14px;
     color: #efefef;
     text-align: center;
@@ -132,7 +130,7 @@ body {
 }
 
 h1 { 
-    font-family: 'Gothic', sans-serif;
+    font-family: 'Book', sans-serif;
     font-size: 44px; 
     color: #000000;
     text-transform: uppercase;
@@ -146,8 +144,6 @@ h2 {
     font-size: 24px;
     color: #4A4A4A;
     letter-spacing: .1rem;
-    font-weight: normal;
-    font-style: italic;
 }
 
 
