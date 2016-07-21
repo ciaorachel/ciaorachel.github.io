@@ -167,7 +167,7 @@ h2 {
     margin: 0 auto;
 }
 
-#artist-name {
+#name {
     transform: translate(-50%, -50%);
     position: absolute;
     top: 50%;
