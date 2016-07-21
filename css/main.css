@@ -98,7 +98,7 @@ textarea {
 /* Fonts */
 @font-face {
     font-family: "Book";
-    src: url("fonts/book/ITC Avant Garde Gothic CE Book.otf") format("opentype");
+    src: url("fonts/book/ITC Avant Garde Gothic LT Book Regular.otf") format("opentype");
     font-weight: bold;
     font-style: normal;
 }
