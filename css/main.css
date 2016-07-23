@@ -97,9 +97,13 @@ textarea {
 
 /* Fonts */
 @font-face {
-    font-family: "Book";
-    src: url("fonts/book/ITC Avant Garde Gothic LT Book Regular.otf") format("opentype");
-    font-weight: bold;
+    src: url('./fonts/book/ITCAvantGardeGothicLTBookRegular.eot'); /* IE9 Compat Modes */
+    src: url('./fonts/book/ITCAvantGardeGothicLTBookRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('./fonts/book/ITCAvantGardeGothicLTBookRegular.woff2') format('woff2'), /* Modern Browsers */
+    url('./fonts/book/ITCAvantGardeGothicLTBookRegular.woff') format('woff'), /* Modern Browsers */
+    url('./fonts/book/ITCAvantGardeGothicLTBookRegular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('./fonts/book/ITCAvantGardeGothicLTBookRegular.svg') format('svg'); /* Legacy iOS */  
+    font-weight: normal;
     font-style: normal;
 }
 
