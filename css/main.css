@@ -117,7 +117,7 @@ textarea {
     url('fonts/oblique/ITCAvantGardeGothicExtraLightOblique.ttf') format('truetype'), /* Safari, Android, iOS */
     url('fonts/oblique/ITCAvantGardeGothicExtraLightOblique.svg') format('svg'); /* Legacy iOS */  
     font-weight: normal;
-    font-style: normal;
+    font-style: italic;
 }
 
 
