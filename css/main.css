@@ -98,24 +98,24 @@ textarea {
 /* Fonts */
 @font-face {
     font-family: 'Book';
-    src: url('/fonts/book/ITCAvantGardeGothicLTBookRegular.eot'); /* IE9 Compat Modes */
-    src: url('/fonts/book/ITCAvantGardeGothicLTBookRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('/fonts/book/ITCAvantGardeGothicLTBookRegular.woff2') format('woff2'), /* Modern Browsers */
-    url('/fonts/book/ITCAvantGardeGothicLTBookRegular.woff') format('woff'), /* Modern Browsers */
-    url('/fonts/book/ITCAvantGardeGothicLTBookRegular.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('/fonts/book/ITCAvantGardeGothicLTBookRegular.svg') format('svg'); /* Legacy iOS */  
+    src: url('fonts/book/ITCAvantGardeGothicLTBookRegular.eot'); /* IE9 Compat Modes */
+    src: url('fonts/book/ITCAvantGardeGothicLTBookRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/book/ITCAvantGardeGothicLTBookRegular.woff2') format('woff2'), /* Modern Browsers */
+    url('fonts/book/ITCAvantGardeGothicLTBookRegular.woff') format('woff'), /* Modern Browsers */
+    url('fonts/book/ITCAvantGardeGothicLTBookRegular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fonts/book/ITCAvantGardeGothicLTBookRegular.svg') format('svg'); /* Legacy iOS */  
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Oblique';
-    src: url('/fonts/oblique/ITCAvantGardeGothicExtraLightOblique.eot'); /* IE9 Compat Modes */
-    src: url('/fonts/oblique/ITCAvantGardeGothicExtraLightOblique.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('/fonts/oblique/ITCAvantGardeGothicExtraLightOblique.woff2') format('woff2'), /* Modern Browsers */
-    url('/fonts/oblique/ITCAvantGardeGothicExtraLightOblique.woff') format('woff'), /* Modern Browsers */
-    url('/fonts/oblique/ITCAvantGardeGothicExtraLightOblique.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('/fonts/oblique/ITCAvantGardeGothicExtraLightOblique.svg') format('svg'); /* Legacy iOS */  
+    src: url('fonts/oblique/ITCAvantGardeGothicExtraLightOblique.eot'); /* IE9 Compat Modes */
+    src: url('fonts/oblique/ITCAvantGardeGothicExtraLightOblique.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/oblique/ITCAvantGardeGothicExtraLightOblique.woff2') format('woff2'), /* Modern Browsers */
+    url('fonts/oblique/ITCAvantGardeGothicExtraLightOblique.woff') format('woff'), /* Modern Browsers */
+    url('fonts/oblique/ITCAvantGardeGothicExtraLightOblique.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fonts/oblique/ITCAvantGardeGothicExtraLightOblique.svg') format('svg'); /* Legacy iOS */  
     font-weight: normal;
     font-style: normal;
 }
@@ -153,6 +153,7 @@ h2 {
     font-family: 'Oblique', sans-serif;
     font-size: 24px;
     color: #4A4A4A;
+    letter-spacing: .1rem;
 }
 
 
