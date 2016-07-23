@@ -110,12 +110,13 @@ textarea {
 
 @font-face {
     font-family: 'Oblique';
-    src: url('./fonts/ITCAvantGardeGothicExtraLightOblique.eot'); /* IE9 Compat Modes */
-    src: url('./fonts/ITCAvantGardeGothicExtraLightOblique.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('./fonts/ITCAvantGardeGothicExtraLightOblique.woff2') format('woff2'), /* Modern Browsers */
-    url('./fonts/ITCAvantGardeGothicExtraLightOblique.woff') format('woff'), /* Modern Browsers */
-    url('./fonts/ITCAvantGardeGothicExtraLightOblique.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('./fonts/ITCAvantGardeGothicExtraLightOblique.svg') format('svg'); /* Legacy iOS */  font-weight: normal;
+    src: url('./fonts/oblique/ITCAvantGardeGothicExtraLightOblique.eot'); /* IE9 Compat Modes */
+    src: url('./fonts/oblique/ITCAvantGardeGothicExtraLightOblique.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('./fonts/oblique/ITCAvantGardeGothicExtraLightOblique.woff2') format('woff2'), /* Modern Browsers */
+    url('./fonts/oblique/ITCAvantGardeGothicExtraLightOblique.woff') format('woff'), /* Modern Browsers */
+    url('./fonts/oblique/ITCAvantGardeGothicExtraLightOblique.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('./fonts/oblique/ITCAvantGardeGothicExtraLightOblique.svg') format('svg'); /* Legacy iOS */  
+    font-weight: normal;
     font-style: normal;
 }
 
